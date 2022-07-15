@@ -1,4 +1,4 @@
-FROM nginx:stable
+FROM 10.251.152.224:5000/nginx:stable
 
 LABEL Name=echo-ip Version=0.0.5
 COPY nginx.conf /etc/nginx/nginx.conf
